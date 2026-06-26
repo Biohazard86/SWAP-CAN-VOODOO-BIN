@@ -24,6 +24,7 @@ The system runs on two boards, each with its own firmware:
   - Add alarms control
   - Add buzzer
   - Add SSR control
+  - Remember the position of the brightness slider
   - Add units to 'speed' tag on the logs
   - Add missfire for each cyl for Miss200 and Miss1000 on the logs
   - Bug fix
