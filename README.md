@@ -13,7 +13,7 @@ The system runs on two boards, each with its own firmware:
 | It is for | Version | Latest binary | Board |
 |-----------|---------|---------------|-------|
 | **Screen (front display)** | V 0.9.1 | [Download](https://github.com/Biohazard86/SWAP-CAN-VOODOO-BIN/releases/latest/download/screen.bin) | Display unit on the front (use left USB-C) |
-| **Back (white PCB)** | V 0.9.1 | [Download]([https://github.com/Biohazard86/SWAP-CAN-VOODOO-BIN/releases/latest/download/back_pcb.bin](https://github.com/Biohazard86/SWAP-CAN-VOODOO-BIN/raw/refs/heads/main/releases/BACK_PCB_BIN/BACK_PCB_Swap-Can-VOODOO-V0.9.1.bin)) | ECU communication board on the back of the gauge |
+| **Back (white PCB)** | V 0.9.1 | [Download](https://github.com/Biohazard86/SWAP-CAN-VOODOO-BIN/raw/refs/heads/main/releases/BACK_PCB_BIN/BACK_PCB_Swap-Can-VOODOO-V0.9.1.bin) | ECU communication board on the back of the gauge |
 > Both boards must run **matching firmware versions** from the same release. Mismatched versions may use incompatible data framing.
 
 ---
