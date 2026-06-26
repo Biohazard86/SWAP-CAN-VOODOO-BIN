@@ -40,7 +40,7 @@ You can flash directly from your browser — no software to install.
 
 1. Connect the board to your computer via USB.
 2. Open the web flasher: **https://esptool.spacehuhn.com** (Use Firefox or Chrome)
-3. Click **Connect** and select the board's serial port.
+3. Click **Connect** and select the board's serial port. (For the back PCB, you need to hold BOOT button while you connect the USB-C)
 4. Set the flash address to **`0x0`** (unless noted otherwise for a specific binary below).
 5. Select the correct `.bin` file for the board you're flashing.
 6. Click **Program** and wait for it to finish  (this process is slow for the screen bin, takes about 20-30 minutes. Only a few seconds for the white PCB).
