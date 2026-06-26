@@ -43,7 +43,7 @@ You can flash directly from your browser — no software to install.
 3. Click **Connect** and select the board's serial port.
 4. Set the flash address to **`0x0`** (unless noted otherwise for a specific binary below).
 5. Select the correct `.bin` file for the board you're flashing.
-6. Click **Program** and wait for it to finish.
+6. Click **Program** and wait for it to finish  (this process is slow, takes about 20-30 minutes).
 7. Reset the board.
 
 Repeat for the second board with its corresponding binary.
