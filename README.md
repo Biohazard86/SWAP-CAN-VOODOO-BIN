@@ -11,7 +11,7 @@ This repository hosts the **latest stable binaries** for end users. No build too
 The system runs on two boards, each with its own firmware:
 
 | Binary | Board | Version | Latest binary |
-|--------|-------|---------|---------------|---------|
+|--------|-------|---------|---------------|
 | **Screen** | Display unit on the front (use left USB-C) | V0.9.1 | [Download](../../releases/latest/download/screen.bin) |
 | **Back PCB** | ECU communication board on the back of the gauge | V0.9.1 | [Download](../../releases/latest/download/back_pcb.bin) |
 
