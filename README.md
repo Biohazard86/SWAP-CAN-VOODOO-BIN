@@ -55,7 +55,7 @@ Repeat for the second board with its corresponding binary.
 ## Notes & safety
 
 - **Match versions.** Always flash the Screen and Back PCB with binaries from the same release.
-- **DDO NOT upload it connected to the car** Take the display out of the car and use a good data cable. Random states of the pins (SSRs, CAN communication, etc) can be activated during the upload.
+- **DO NOT upload the bin while still connected to the car** Take the display out of the car and use a good data cable. Random states of the pins (SSRs, CAN communication, etc) can be activated during the upload.
 - **First boot.** After flashing fresh firmware, the device may take a few seconds to start. Configuration (alarm thresholds, screen brightness, SSR conditions) is stored on-device and persists across reboots.
 - **SSR outputs.** If the link between the two boards is lost, the Back PCB drives all SSR outputs to a safe state. Keep both boards connected and powered for normal operation.
 - **Wrong binary on wrong board** won't damage anything, but the device won't work correctly — just reflash with the right one.
