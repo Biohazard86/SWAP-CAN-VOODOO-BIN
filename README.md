@@ -39,7 +39,7 @@ The system runs on two boards, each with its own firmware:
 You can flash directly from your browser — no software to install.
 
 1. Connect the board to your computer via USB.
-2. Open the web flasher: **https://esptool.spacehuhn.com**
+2. Open the web flasher: **https://esptool.spacehuhn.com** (Use Firefox or Chrome)
 3. Click **Connect** and select the board's serial port.
 4. Set the flash address to **`0x0`** (unless noted otherwise for a specific binary below).
 5. Select the correct `.bin` file for the board you're flashing.
