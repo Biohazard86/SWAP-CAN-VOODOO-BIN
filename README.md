@@ -10,10 +10,10 @@ This repository hosts the **latest stable binaries** for end users. No build too
 
 The system runs on two boards, each with its own firmware:
 
-| Binary | Board | Description | Latest binary |
-|--------|-------|-------------|----------------|
-| **Screen** | Display unit | Drives the dashboard UI and shows the information | V 0.9 [Download](../../releases/latest/download/screen.bin) |
-| **Back PCB** | ECU communication board | Talks to the ECU over CAN, reads sensors, drives the SSR outputs | V0.9 Download](../../releases/latest/download/back_pcb.bin) | 
+| Binary | Board | Version | Latest binary | Changes |
+|--------|-------|-------------|----------------|----------------|----------------|
+| **Screen** | Display unit | V0.9 | [Download](../../releases/latest/download/screen.bin) | Add Alarms and SSR control, buzzer sound, etc. | 
+| **Back PCB** | ECU communication board | V0.9 | V0.9 [Download](../../releases/latest/download/back_pcb.bin) | Add SSR control and communication with the display |
 
 > Both boards must run **matching firmware versions** from the same release. Mismatched versions may use incompatible data framing.
 
