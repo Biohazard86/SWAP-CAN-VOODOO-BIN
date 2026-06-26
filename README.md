@@ -12,8 +12,8 @@ The system runs on two boards, each with its own firmware:
 
 | It is for | Version | Latest binary| Board  |
 |--------|-------|---------|---------------|
-| **Screen (front display)** | V0.9.1 | [Download](../../releases/latest/download/screen.bin) | Display unit on the front (use left USB-C)  |
-| **Back (white PCB)** | V0.9.1 | [Download](../../releases/latest/download/back_pcb.bin) | ECU communication board on the back of the gauge  |
+| **Screen (front display)** | V 0.9.1 | [Download](../../releases/latest/download/screen.bin) | Display unit on the front (use left USB-C)  |
+| **Back (white PCB)** | V 0.9.1 | [Download](../../releases/latest/download/back_pcb.bin) | ECU communication board on the back of the gauge  |
 
 > Both boards must run **matching firmware versions** from the same release. Mismatched versions may use incompatible data framing.
 
