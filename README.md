@@ -49,16 +49,6 @@ Repeat for the second board with its corresponding binary.
 
 > **Tip:** If the board isn't detected, hold the **BOOT** button while plugging in (or while clicking Connect), then release. Some boards need to be put into download mode manually.
 
----
-
-## Releases
-
-The most recent stable binaries are in the latest release / the root of this repo.
-
-- **Screen binary:** `<filename>.bin`
-- **Back PCB binary:** `<filename>.bin`
-
-Check the [Releases](../../releases) tab for version history and changelogs.
 
 ---
 
