@@ -19,6 +19,19 @@ The system runs on two boards, each with its own firmware:
 
 ---
 
+## Changes
+- V0.9.1
+  - Add alarms control
+  - Add buzzer
+  - Add SSR control
+  - Bug fix
+ 
+- V0.9
+  - Base 
+
+
+---
+
 ## How to flash
 
 You can flash directly from your browser — no software to install.
@@ -56,19 +69,8 @@ Check the [Releases](../../releases) tab for version history and changelogs.
 - **SSR outputs.** If the link between the two boards is lost, the Back PCB drives all SSR outputs to a safe state. Keep both boards connected and powered for normal operation.
 - **Wrong binary on wrong board** won't damage anything, but the device won't work correctly — just reflash with the right one.
 
----
----
 
-## Changes
-- V0.9.1
-  - Add alarms control
-  - Add buzzer
-  - Add SSR control
-  - Bug fix
- 
-- V0.9
-  - Base 
-
+---
 
 ## Troubleshooting
 
