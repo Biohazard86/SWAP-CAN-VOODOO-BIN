@@ -25,6 +25,7 @@ The system runs on two boards, each with its own firmware:
   - Add buzzer
   - Add SSR control
   - Add units to 'speed' tag on the logs
+  - Add missfire for each cyl for Miss200 and Miss1000 on the logs
   - Bug fix
  
 - V0.9
