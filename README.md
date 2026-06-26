@@ -53,6 +53,11 @@ Repeat for the second board with its corresponding binary.
 
 ---
 
+## IMG
+![texto alternativo](https://github.com/Biohazard86/SWAP-CAN-VOODOO-BIN/blob/main/img/Captura%20de%20pantalla%202026-06-26%20154121.png?raw=true)
+
+---
+
 ## Notes & safety
 
 - **Match versions.** Always flash the Screen and Back PCB with binaries from the same release.
