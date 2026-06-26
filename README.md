@@ -12,8 +12,8 @@ The system runs on two boards, each with its own firmware:
 
 | Binary | Board | Version | Latest binary | Changes |
 |--------|-------|---------|---------------|---------|
-| **Screen** | Display unit on the front (use left USB-C | V0.9 | [Download](../../releases/latest/download/screen.bin) | Add Alarms and SSR control, buzzer sound, etc. |
-| **Back PCB** | ECU communication board of  the back | V0.9 | [Download](../../releases/latest/download/back_pcb.bin) | Add SSR control and communication with the display |
+| **Screen** | Display unit on the front (use left USB-C | V0.9.1 | [Download](../../releases/latest/download/screen.bin) | Add Alarms and SSR control, buzzer sound, etc. |
+| **Back PCB** | ECU communication board of  the back | V0.9.1 | [Download](../../releases/latest/download/back_pcb.bin) | Add SSR control and communication with the display |
 
 > Both boards must run **matching firmware versions** from the same release. Mismatched versions may use incompatible data framing.
 
@@ -57,6 +57,18 @@ Check the [Releases](../../releases) tab for version history and changelogs.
 - **Wrong binary on wrong board** won't damage anything, but the device won't work correctly — just reflash with the right one.
 
 ---
+---
+
+## Changes
+- V0.9.1
+  - Add alarms control
+  - Add buzzer
+  - Add SSR control
+  - Bug fix
+ 
+- V0.9
+  - Base 
+
 
 ## Troubleshooting
 
