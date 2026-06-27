@@ -26,6 +26,7 @@ The system runs on two boards, each with its own firmware:
   - Remember the position of the brightness slider
   - Add units to 'speed' tag on the logs
   - Add missfire for each cyl for Miss200 and Miss1000 on the logs
+  - No alarms when data can can't be trusted on startup
   - Bug fix
  
 - V0.9
