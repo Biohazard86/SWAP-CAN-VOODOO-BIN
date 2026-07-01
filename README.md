@@ -27,6 +27,7 @@ The system runs on two boards, each with its own firmware:
   - Add units to 'speed' tag on the logs
   - Add missfire for each cyl for Miss200 and Miss1000 on the logs
   - No alarms when data can can't be trusted on startup
+  - Add a semaphore to fix the bug during logs
   - Bug fix
  
 - V0.9
