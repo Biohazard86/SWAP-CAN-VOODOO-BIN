@@ -40,6 +40,8 @@ The system runs on two boards, each with its own firmware:
 ---
 
 ## How to flash
+Use [VoodooUpdater.exe](https://github.com/Biohazard86/SWAP-CAN-VOODOO-BIN/raw/refs/heads/main/VoodooUpdater.exe)   or...
+
 
 You can flash directly from your browser — no software to install.
 
