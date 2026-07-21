@@ -12,13 +12,16 @@ The system runs on two boards, each with its own firmware:
 
 | It is for | Version | Latest binary | Board |
 |-----------|---------|---------------|-------|
-| **Screen (front display)** | V 0.9.1.4 | [Download](https://github.com/Biohazard86/SWAP-CAN-VOODOO-BIN/raw/refs/heads/main/releases/SCREEN_BIN/SCREEN_Swap-Can-VOODOO-V0.9.1.4.bin) | Display unit on the front (use left USB-C) |
-| **Back (white PCB)** | V 0.9.1.4 | [Download](https://github.com/Biohazard86/SWAP-CAN-VOODOO-BIN/raw/refs/heads/main/releases/BACK_PCB_BIN/BACK_PCB_Swap-Can-VOODOO-V0.9.1.4.bin) | ECU communication board on the back of the gauge |
+| **Screen (front display)** | V 0.9.1.5 | [Download](https://github.com/Biohazard86/SWAP-CAN-VOODOO-BIN/raw/refs/heads/main/releases/SCREEN_BIN/SCREEN_Swap-Can-VOODOO-V0.9.1.5.bin) | Display unit on the front (use left USB-C) |
+| **Back (white PCB)** | V 0.9.1.5 | [Download](https://github.com/Biohazard86/SWAP-CAN-VOODOO-BIN/raw/refs/heads/main/releases/BACK_PCB_BIN/BACK_PCB_Swap-Can-VOODOO-V0.9.1.5.bin) | ECU communication board on the back of the gauge |
 > Both boards must run **matching firmware versions** from the same release. Mismatched versions may use incompatible data framing.
 
 ---
 
 ## Changes
+- V0.9.1.5
+  - Fixed the TPS measurement, now reads like T5Suite.
+  
 - V0.9.1.4
   - Fixed the bug that only reads the 2.5 MAP sensor. Now you can select your sensor type from the 'Settings' screen.
 
