@@ -19,6 +19,12 @@ The system runs on two boards, each with its own firmware:
 ---
 
 ## Changes
+- V0.9.1.6
+  - Fix the SD bug
+  - Fix the freeze bug
+  - Fix other bugs
+  - Add handshake to start the communication from the CAN board to the Screen.
+
 - V0.9.1.5
   - Fixed the TPS measurement, now reads like T5Suite.
   
