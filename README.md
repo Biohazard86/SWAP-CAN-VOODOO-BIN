@@ -26,6 +26,7 @@ The system runs on two boards, each with its own firmware:
     Ign_map_0_x_axis! and Ign_map_0_y_axis! is taken from the NVS or the symboltable to represent the Knock feedback table.
   - The name in the LOG includes the SW version of the ECU, just in case you use the gauge in different vehicles.
   - Knock indicator changed from 10 seconds to 20 seconds.
+  - New Knock alarm: more than 2.5 seconds of knock activates the alarm.
   - Automatic brightness reduction when a +12v is applied to the PIN for the position lights.
   - Fix minor bugs.
  
