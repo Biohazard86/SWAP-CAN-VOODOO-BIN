@@ -12,13 +12,26 @@ The system runs on two boards, each with its own firmware:
 
 | It is for | Version | Latest binary | Board |
 |-----------|---------|---------------|-------|
-| **Screen (front display)** | V 0.9.1.6 | [Download](https://github.com/Biohazard86/SWAP-CAN-VOODOO-BIN/raw/refs/heads/main/releases/SCREEN_BIN/SCREEN_Swap-Can-VOODOO-V0.9.1.6.bin) | Display unit on the front (use left USB-C) |
-| **Back (white PCB)** | V 0.9.1.6 | [Download](https://github.com/Biohazard86/SWAP-CAN-VOODOO-BIN/raw/refs/heads/main/releases/BACK_PCB_BIN/BACK_PCB_Swap-Can-VOODOO-V0.9.1.6.bin) | ECU communication board on the back of the gauge |
+| **Screen (front display)** | V 0.9.1.8 | [Download](https://github.com/Biohazard86/SWAP-CAN-VOODOO-BIN/raw/refs/heads/main/releases/SCREEN_BIN/SCREEN_Swap-Can-VOODOO-V0.9.1.8.bin) | Display unit on the front (use left USB-C) |
+| **Back (white PCB)** | V 0.9.1.8 | [Download](https://github.com/Biohazard86/SWAP-CAN-VOODOO-BIN/raw/refs/heads/main/releases/BACK_PCB_BIN/BACK_PCB_Swap-Can-VOODOO-V0.9.1.8.bin) | ECU communication board on the back of the gauge |
 > Both boards must run **matching firmware versions** from the same release. Mismatched versions may use incompatible data framing.
 
 ---
 
 ## Changes
+- V0.9.1.8
+  - Add AFR feedback table (saved in the SD) and can be reset with a long press button in the Settings screen.
+    Ign_map_0_x_axis! and Ign_map_0_y_axis! is taken  from the NVS or the symboltable to represent the AFR feedback table.
+  - Add Knock feedback table (saved in the SD) and can be reset with a long press button in the Settings screen.
+    Ign_map_0_x_axis! and Ign_map_0_y_axis! is taken from the NVS or the symboltable to represent the Knock feedback table.
+  - The name in the LOG includes the SW version of the ECU, just in case you use the gauge in different vehicles.
+  - Knock indicator changed from 10 seconds to 20 seconds.
+  - Automatic brightness reduction when a +12v is applied to the PIN for the position lights.
+  - Fix minor bugs.
+ 
+- V0.9.1.7
+  - Not released, just for internal testing
+ 
 - V0.9.1.6
   - Fix the SD bug
   - Fix the freeze bug
