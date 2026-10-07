@@ -22,7 +22,7 @@ The system runs on two boards, each with its own firmware:
 ## Changes
 - V0.9.1.8
   - Add AFR feedback table (saved in the SD) and can be reset with a long press button in the Settings screen.
-    Ign_map_0_x_axis! and Ign_map_0_y_axis! is taken  from the NVS or the symboltable to represent the AFR feedback table.
+    Fuel_map_xaxis! and Fuel_map_yaxis! is taken  from the NVS or the symboltable to represent the AFR feedback table.
   - Add Knock feedback table (saved in the SD) and can be reset with a long press button in the Settings screen.
     Ign_map_0_x_axis! and Ign_map_0_y_axis! is taken from the NVS or the symboltable to represent the Knock feedback table.
   - The name in the LOG includes the SW version of the ECU, just in case you use the gauge in different vehicles.
