@@ -20,6 +20,14 @@ The system runs on two boards, each with its own firmware:
 ---
 
 ## Changes
+- V0.9.1.9
+  - Fixed the axis on the knock feedback map
+  - Added the feature to download the knock_count_map from the ECU. This is fully downloaded at the startup of the gauge, and then the download is split in frames during 5 minutes, so updates came every 5 minutes. 
+  This map is saved in the microSD card under the name "Knock_Count_ECU_..." in a CSV format.  
+  - Added the symbols Knock_count_cyl1 to 4. Downloaded every 1 minute and also saved in the same CSV file as knock_count_map.
+  - "Knock feedback reset" on the gauge does not clear "Knock_Count_ECU_...", because is data from the ECU.
+  
+  
 - V0.9.1.8
   - Add AFR feedback table (saved in the SD) and can be reset with a long press button in the Settings screen.
     Fuel_map_xaxis! and Fuel_map_yaxis! is taken  from the NVS or the symboltable to represent the AFR feedback table.
