@@ -20,6 +20,14 @@ The system runs on two boards, each with its own firmware:
 ---
 
 ## Changes
+- V0.9.2
+  - Oil and fuel pressure measurements improve (accurate and speed) also, CPU usage for performing these measurements has been reduced.
+  - Improved disconnection detection for oil pressure, fuel pressure, or oil temperature sensors.
+  - Brightness dimming with position lights (+58)
+  - Reduced CPU usage for the display; now, only the parts that change are redrawn.
+  - Atomic log writing: either an entire line is written, or nothing is written at all.
+  - More reliable detection via the Voodoo Updater. The display announces its identification every 3 seconds and does not restart if connected via USB without the CAN board.
+  
 - V0.9.1.9
   - Fixed the axis on the knock feedback map
   - Added the feature to download the knock_count_map from the ECU. This is fully downloaded at the startup of the gauge, and then the download is split in frames during 5 minutes, so updates came every 5 minutes. 
