@@ -20,6 +20,42 @@ The system runs on two boards, each with its own firmware:
 ---
 
 ## Changes
+- V0.9.3
+  - New interface made with EEZ Studio (LVGL 8.4), with a minimalist redesign of all the screens. The old limit on screens and widgets is gone.
+  - ECU status flags are shown as coloured pills (green, amber or red depending on the meaning, grey when inactive).
+  - New Tools menu: Data log, G-meter, Acceleration and Last log.
+  - New Settings menu: Alarms, SSR outputs, General and Documentation.
+  - Sub-screens are closed with the BACK button. Swiping is only used to move between the data screens.
+  - Add acceleration timer (Tools > Acceleration):
+    - 0-100, 0-200, 80-150 and 100-200 km/h, 400 m (time and speed at the line) and 100-0 km/h braking (metres and time).
+    - The test is detected automatically, and all of them can be done in a single run. Standing starts are detected with the accelerometer, no calibration needed.
+    - Last and Best times. Best is saved in memory and shown in green if it was set in this session.
+  - Add online leaderboard:
+    - UPLOAD a Best time by scanning a QR code with the phone. Each time is signed with a key unique to the display.
+    - REGISTER links the display with your profile (car, engine, drivetrain, tyres, power, mods...).
+    - Brightness doesn't go below 40% while a QR code is shown.
+  - Add G-meter (Tools > G-meter): 0.5, 1 and 1.5 G rings, peak values with the speed where they were reached, and mounting calibration saved in memory. G-forces are not logged on the SD.
+  - Add Last log (Tools > Last log): duration, max boost, max RPM, max speed and the moments with knock of the last log on the SD.
+  - Add charts in the Sensors screen: oil and fuel pressure and oil temperature, last 30 seconds, updated every 0.5 seconds.
+  - Add quick panel: swipe down from the top edge on any screen.
+    - Brightness bar.
+    - LOG: start or stop the SD log.
+    - KNOCK: reads the knock_count_map from the ECU right now and saves it on the SD.
+    - RESET MAX: clears the Boost, HP, Nm and G-meter peaks.
+    - ALARMS: mutes the buzzer for 1 minute (tap) or 10 minutes (long press). The mute is not saved, so a restart removes it.
+    - OFF: turns off the backlight until you touch the screen or an alarm goes off.
+    - LOCK: locks the touch screen. Hold 2 seconds to unlock. Alarms keep working.
+  - Add ERASE MEMORY (Settings > General): erase the screen memory (NVS), the symboltable of the CAN board, or both.
+    - The CAN board downloads the symboltable again from the ECU after restarting.
+    - If the screen memory is erased, to register it again on the leaderboard send the display ID (shown before erasing) to swap-parts.es.
+  - Add About screen (Settings > Documentation > About): screen and CAN board versions, ECU SW version, SD free space, uptime and last reset reason.
+  - Add QR codes in Documentation: manuals (EN/ES), how to update, repository and leaderboard.
+  - Add SSR test switches: force each output ON while enabled. They switch off when you leave the screen.
+  - Add animation while the symboltable is downloaded from the ECU, and new start-up animation.
+  - Sustained knock alarm renamed from ">3s" to "Sustained (+2s)". Now it triggers after 2 seconds of knock.
+  - No more screen flicker.
+  - More reliable touch screen. 
+ 
 - V0.9.2
   - Oil and fuel pressure measurements improve (accurate and speed) also, CPU usage for performing these measurements has been reduced.
   - Improved disconnection detection for oil pressure, fuel pressure, or oil temperature sensors.
