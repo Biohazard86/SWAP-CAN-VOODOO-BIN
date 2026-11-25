@@ -138,12 +138,7 @@ Your settings (alarm thresholds, brightness, SSR conditions), the acceleration B
 
 ## IMG
 
-![texto alternativo](https://github.com/Biohazard86/SWAP-CAN-VOODOO-BIN/blob/main/img/Captura%20de%20pantalla%202026-06-26%20154308.png?raw=true)
-![texto alternativo](https://github.com/Biohazard86/SWAP-CAN-VOODOO-BIN/blob/main/img/Captura%20de%20pantalla%202026-06-26%20154121.png?raw=true)
-![texto alternativo](https://github.com/Biohazard86/SWAP-CAN-VOODOO-BIN/blob/main/img/Captura%20de%20pantalla%202026-06-26%20155015.png?raw=true)
-![texto alternativo](https://github.com/Biohazard86/SWAP-CAN-VOODOO-BIN/blob/main/img/IMG1%20(1).jpeg?raw=true)
-![texto alternativo](https://github.com/Biohazard86/SWAP-CAN-VOODOO-BIN/blob/main/img/IMG1%20(2).jpeg?raw=true)
-![texto alternativo](https://github.com/Biohazard86/SWAP-CAN-VOODOO-BIN/blob/main/img/IMG1%20(3).jpeg?raw=true)
+
 
 
 ---
