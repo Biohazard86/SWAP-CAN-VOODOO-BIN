@@ -118,24 +118,21 @@ The system runs on two boards, each with its own firmware:
 
 ---
 
-## How to flash
-Use [VoodooUpdater.exe](https://github.com/Biohazard86/SWAP-CAN-VOODOO-BIN/raw/refs/heads/main/VoodooUpdater1.1.exe)  if you are with a Windows machine or...
+## How to update
 
+Use the **Voodoo Updater** (Windows 11). It finds the board, downloads the latest binary from this repository and flashes it. You don't need to download the `.bin` files yourself.
 
-You can flash directly from your browser — no software to install.
+1. Download [SwapCANVoodooUpdater1.3.exe](https://github.com/Biohazard86/SWAP-CAN-VOODOO-BIN/raw/refs/heads/main/SwapCANVoodooUpdater1.3.exe).
+2. Take the gauge out of the car (see *Notes & safety*).
+3. Connect one board to the computer with a USB **data** cable:
+   - **Screen:** left USB-C of the display unit.
+   - **Back PCB (white):** its USB-C. If it isn't detected, hold the **BOOT** button while you plug the cable in.
+4. Run the updater, let it detect the board and start the update. Wait until it says it has finished (the screen takes longer than the back PCB).
+5. Unplug the board and repeat with the other one.
 
-1. Connect the board to your computer via USB.
-2. Open the web flasher: **https://esptool.spacehuhn.com** (Use Firefox or Chrome)
-3. Click **Connect** and select the board's serial port. (For the back PCB, you need to hold BOOT button while you connect the USB-C)
-4. Set the flash address to **`0x0`** (unless noted otherwise for a specific binary below).
-5. Select the correct `.bin` file for the board you're flashing.
-6. Click **Program** and wait for it to finish  (this process is slow for the screen bin, takes about 20-30 minutes. Only a few seconds for the white PCB).
-7. Reset the board.
+Your settings (alarm thresholds, brightness, SSR conditions), the acceleration Best times, the G-meter calibration and the leaderboard registration are **kept**: the updater doesn't erase the memory of the boards.
 
-Repeat for the second board with its corresponding binary.
-
-> **Tip:** If the board isn't detected, hold the **BOOT** button while plugging in (or while clicking Connect), then release. Some boards need to be put into download mode manually.
-
+> **Update both boards** to the same version, one after the other.
 
 ---
 
@@ -166,10 +163,11 @@ Repeat for the second board with its corresponding binary.
 
 | Symptom | Try this |
 |---------|----------|
-| Board not detected by web flasher | Hold **BOOT** while connecting, try a different USB cable/port (must be a data cable, not charge-only) |
-| Flash fails partway | Lower the baud rate, use a shorter/better USB cable |
+| Board not detected by the updater | Hold **BOOT** while connecting, try a different USB cable/port (must be a data cable, not charge-only) |
+| Windows blocks the updater ("Windows protected your PC") | Click **More info** → **Run anyway** |
+| Update fails partway | Use a shorter/better USB cable or another USB port, and run the updater again |
 | Screen boots but shows no data | Check the wiring between the two boards; make sure the Back PCB is powered and flashed with a matching version |
-| Settings reset after reboot | Reflash; if it persists, the NVS partition may need erasing (full erase before flashing) |
+| Settings reset after reboot | Update again with the Voodoo Updater; if it persists, use Settings > General > ERASE MEMORY and set it up again |
 
 ---
 
